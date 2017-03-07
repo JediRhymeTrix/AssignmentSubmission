@@ -1,0 +1,191 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+.body {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	background-color: #f2f2f2;
+}
+#cssmenu {
+	background: #cbcac6;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+#logo img {
+	position: absolute;
+	margin-left: 90px;
+	margin-top: 33px;
+}
+#search_button {
+	position: absolute;
+	margin-left: 885px;
+	margin-top: 22px;
+}
+#rectangle {
+	width: 660px;
+	height: 2px;
+	background: #ec7613;
+	margin-top: 90px;
+	margin-left: 273px;
+	position: absolute;
+}
+#km_heading {
+	font: 30px Roboto;
+	color: #026b82;
+	position: absolute;
+	z-index: 999;
+	margin-left: 273px;
+	margin-top: 40px;
+	text-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+#cssmenu ul {
+	list-style: none;
+	margin-left: 273px;
+	padding-left: 0;
+	line-height: 1;
+	display: block;
+	zoom: 1;
+}
+#cssmenu ul:after {
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#cssmenu ul li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+#cssmenu.align-right ul li {
+	float: right;
+}
+#cssmenu.align-center ul {
+	text-align: center;
+}
+#cssmenu ul li a {
+	color: #026b82;
+	text-decoration: none;
+	display: block;
+	padding: 0px 10px;
+	padding-bottom: 24px;
+	padding-top: 137px;
+	font-family: 'Roboto Medium', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	position: relative;
+	-webkit-transition: color .25s;
+	-moz-transition: color .25s;
+	-ms-transition: color .25s;
+	-o-transition: color .25s;
+	transition: color .25s;
+}
+#cssmenu ul li a:hover {
+	color: #FFFFFF;
+}
+#cssmenu ul li a:hover:before {
+	width: 100%;
+}
+#cssmenu ul li a:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 0;
+	background: #ec7613;
+	-webkit-transition: width .25s;
+	-moz-transition: width .25s;
+	-ms-transition: width .25s;
+	-o-transition: width .25s;
+	transition: width .25s;
+}
+#cssmenu ul li.last > a:after, #cssmenu ul li:last-child > a:after {
+	display: none;
+}
+#cssmenu ul li.active a {
+	color: #FFFFFF;
+}
+#cssmenu ul li.active a:before {
+	width: 100%;
+}
+#cssmenu.align-right li.last > a:after, #cssmenu.align-right li:last-child > a:after {
+	display: block;
+}
+#cssmenu.align-right li:first-child a:after {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+#cssmenu ul li {
+	float: none;
+	display: block;
+}
+#cssmenu ul li a {
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #fb998c;
+}
+#cssmenu ul li.last > a,  #cssmenu ul li:last-child > a {
+	border: 0;
+}
+#cssmenu ul li a:after {
+	display: none;
+}
+#cssmenu ul li a:before {
+	display: none;
+}
+/*it begins*/
+  
+#css-script-menu {
+	position: fixed;
+	height: 900px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	border-top: 5px solid #16a1e7;
+	background: #fff;
+	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	z-index: 999999;
+	padding: 10px 0;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.css-script-center {
+	width: 960px;
+	margin: 0 auto;
+}
+.css-script-center ul {
+	width: 212px;
+	float: left;
+	line-height: 45px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.css-script-center a {
+	text-decoration: none;
+}
+.css-script-ads {
+	width: 728px;
+	height: 90px;
+	float: right;
+}
+.css-script-clear {
+	clear: both;
+	height: 0;
+}
+tr.spacer {
+	height: 40px;
+}
+}

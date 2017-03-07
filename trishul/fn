@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<stdlib.h>
+struct node
+{
+ int key;
+ int value;
+ struct node *left;
+ struct node *right;
+};
+struct node *addnode(struct node *rptr,char data)
+{
+ struct node *tptr;
+ tptr=(struct node*)malloc(sizeof (struct node));
+ tptr->data =data;
+ tptr->left=tptr->right=NULL;
+ if (pptr==NULL)
+ {
+  return tptr;
+  }
+ if (tptr->data<pptr->data)
+ {
+  pptr->left=tptr;
+  }
+  else
+  pptr->right=tptr;
+  }
+  void preorder(stuct node *nptr)
+  if (nptr!-NULL)
+  {
+  printf"%c"\n",nptr->data)
+  
+ 
+

@@ -1,0 +1,214 @@
+body {
+	font: 12px Roboto Regular, sans-serif;
+	text-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+	color: #f2f2f2;
+	background-color: #f2f2f2;
+	
+}
+div#events  {
+	height: 425px;
+	width: 300px;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+#events:hover img {
+	height: 430px;
+	width: 305px;
+	box-shadow: 1px -2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+div#btn {
+	background-image: url("events_btn.png");
+	position: absolute;
+	z-index: 999;
+	height: 30px;
+	width: 240px;
+	margin-left: 11px;
+	margin-top: -72px;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+#btn: hover img{
+	margin-left: 15px;
+box-shadow: 1px -2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+div#weather  {
+	margin-left: 17px;
+	height: 425px;
+	width: 300px;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+#weather:hover img {
+	height: 430px;
+	width: 305px;
+	box-shadow: 1px -2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+div#director img {
+	margin-top: -20px;
+	margin-left: 55px;
+	
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+div#smallRect1 {
+	height: 40px;
+	width: 300px;
+	color: #f71826;
+	background-color: #f71826;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+div#smallRect2 {
+	margin-top: -3px;
+	margin-left: 75px;
+	height: 125px;
+	width: 300px;
+	background-color: #d01a25;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+div#prev img {
+	float: left;
+	margin-left: 100px;
+}
+div#play img {
+	float: left;
+	margin-left: 30px;
+}
+div#next img {
+	float: right;
+	margin-right: 100px;
+}
+div#buttons img {
+	margin-top: 13px;
+	height: 13px;
+	width: 13px;
+	z-index: 999;
+	background-color: #f71826;
+	box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0);
+}
+div#text p {
+	width: 250px;
+	font: 21px Roboto Light;
+	color: #FFFFFF;
+	text-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+	margin-top: 10px;
+	margin-left: -5px;
+	left: 0px;
+	top: 0px;
+}
+div#text2 p{
+	font: 12px Roboto Light;
+	margin-left: 80px;
+	margin-top: -50px;
+}
+#smallRect1:hover {
+	height: 45px;
+	width: 305px;
+	box-shadow: 1px -2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+#smallRect1:hover {
+	height: 45px;
+	width: 305px;
+	box-shadow: 1px -2px 8px 1px rgba(0, 0, 0, 0.2);
+}#smallRect2:hover {
+	height: 130px;
+	width: 305px;
+	box-shadow: 1px -2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+#buttons:hover img{
+	height: 18px;
+	width: 18px;
+}
+div#calendar  {
+	margin-left: -21px;
+	height: 425px;
+	width: 300px;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+#calendar:hover img {
+	height: 430px;
+	width: 305px;
+	box-shadow: 1px -2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+div#toptext {
+	font: 24px Roboto Light;
+	position: relative;
+	background-color: transparent;
+	margin-left: 57px;
+	margin-top: -35px;
+	margin-bottom: 7px;
+	text-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+div#box1 {
+	float: right;
+	margin-right: -5px;
+	width: 275px;
+	height: 275px;
+	border-top: 44px solid #532e95;
+	background-color: #673ab7;
+	text-align: left;
+	padding-right: 25px;
+	padding-top: 0px;
+	position: relative;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2), inset 0px 1px 4px -0px rgba(0, 0, 0, 0.2);
+}
+#box1:hover {
+	height: 280px;
+	width: 280px;
+	box-shadow: 1px -2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+.marquee {
+	background-color: #673ab7;
+	white-space: nowrap;
+	overflow: hidden;
+}
+ul {
+	text-align: justify;
+}
+div#text1 {
+	margin-left: 38px;
+	background-color: #20211f;
+	width: 300px;
+	height: 425px;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+div#text {
+	font: 24px Roboto Light;
+	text-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+	margin-top: 29px;
+	margin-left: 31.93px;
+}
+div#backdrop {
+	height: 300px;
+	width: 300px;
+	z-index: 999;
+	position: relative;
+}
+div#button1 {
+	background-image: url("button.png");
+	width: 59px;
+	height: 29px;
+	margin-left: 207px;
+	margin-top: -311px;
+	position: absolute;
+}
+#backdrop:hover img {
+	height: 305px;
+	width: 305px;
+	box-shadow: 1px -2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+#text1:hover {
+	height: 430px;
+	width: 305px;
+	box-shadow: 1px -2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+#text: hover {
+	margin-top: 34px;
+}
+div#academic  {
+	margin-left: 56px;
+	height: 425px;
+	width: 300px;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+#academic:hover img {
+	height: 430px;
+	width: 305px;
+	box-shadow: 1px -2px 8px 1px rgba(0, 0, 0, 0.2);
+}

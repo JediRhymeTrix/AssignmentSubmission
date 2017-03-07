@@ -1,0 +1,101 @@
+input[type=checkbox] {
+  display: none;
+}
+
+label {
+  display: block;
+  position: absolute;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: transparent;
+  content: "";
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 3px solid #435160;
+}
+
+
+input[type="submit"] {
+  background: #1FCE6D;
+  border: 0;
+  width: 100px;
+  height: 40px;
+  float:right;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background: #5ac7ff;
+}
+
+
+
+#bottomleft { 
+   width:1365px; 
+   height: 100px; 
+   background:pink; float:left; 
+}
+
+#upright { 
+   width:200px; 
+   height:650px; 
+   background:blue; 
+   float:left
+}
+
+
+
+
+
+
+.btn0 {
+  margin-top: 5px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+}
+.btn0:hover {
+  margin-top: 5px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  color: #6D7781;
+}
+
+.btn1 {
+  margin-top: 5px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+}
+.btn1:hover {
+  margin-top: 5px;
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  color: #5ac7ff
+;
+}
+
+
+
+::-webkit-input-placeholder {
+  color: #435160;
+  font-size: 12px;
+}
+
+.animated {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
+

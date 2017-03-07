@@ -1,0 +1,64 @@
+import sqlite3
+path="/home/kmit/project.db"
+con=sqlite3.connect(path)
+cur=con.cursor()
+ROLL_NO=input("Enter your Roll Number")
+#cur.execute("select st.YEAR,st.BRANCH,st.SEMISTER FROM student_list st JOIN PROFILE s ON where st.ROLL_NO=s.ROLL_NO AND s.ROLL_NO='"+ROLL_NO"'")
+cur.execute("SELECT st.YEAR,st.BRANCH,st.SEMISTER FROM student_list st,PROFILE s WHERE st.ROLL_NO = s.ROLL_NO AND s.ROLL_NO ='"+ROLL_NO+"'")
+data=cur.fetchall()
+con.commit()
+if(data[0][0]=='1'):
+    if(data[0][1]=='cse' or data[0][1]=='CSE'):
+        if(data[0][2]=='1'):
+            print("python-1")
+elif(data[0][0]=='2'):
+    if(data[0][1]=='cse' or data[0][1]=='CSE'):
+        if(data[0][2]=='1'):
+            print("python-2,Bec-2")
+elif(data[0][0]=='2'):
+    if(data[0][1]=='cse' or data[0][1]=='CSE'):
+        if(data[0][2]=='2'):
+            print("python-2-2,bec-2-2")
+elif(data[0][0]=='3'):
+    if(data[0][1]=='cse' or data[0][1]=='CSE'):
+        if(data[0][2]=='1'):
+            print("android-3-1")
+elif(data[0][0]=='3'):
+    if(data[0][1]=='cse' or data[0][1]=='CSE'):
+        if(data[0][2]=='2'):
+            print("android-3-2")
+elif(data[0][0]=='4'):
+   if(data[0][1]=='cse' or data[0][1]=='CSE'):
+        if(data[0][2]=='1'):
+            print("android-4-1")
+elif(data[0][0]=='4'):
+   if(data[0][1]=='cse' or data[0][1]=='CSE'):
+        if(data[0][2]=='2'):
+            print("android-4-2")
+elif(data[0][0]=='1'):
+    if(data[0][1]=='ece' or data[0][1]=='ECE' ):
+        if(data[0][2]=='1'):
+            print("EE")
+elif(data[0][0]=='2'):
+    if(data[0][1]=='ece' or data[0][1]=='ECE' ):
+        if(data[0][2]=='1'):
+            print("EE-2-1")
+elif(data[0][0]=='2'):
+    if(data[0][1]=='ece' or data[0][1]=='ECE' ):
+        if(data[0][2]=='2'):
+            print("EE-2-2")
+elif(data[0][0]=='3'):
+   if(data[0][1]=='ece' or data[0][1]=='ECE' ):
+        if(data[0][2]=='1'):
+            print("EE-3-1")
+#con.commit()
+con.close()
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                                    
